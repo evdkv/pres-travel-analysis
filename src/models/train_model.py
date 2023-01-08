@@ -7,14 +7,9 @@ import joblib
 
 def main():
     df = pd.read_csv('../pres-travel-analysis/data/travel_processed.csv')
-    df_president = df[df['visit_type'] == 'president']
-    df_secretary = df[df['visit_type'] == 'secretary']
-    tf_pres, tfidf_pres = extract_features(df_president['remarks'])
-    tf_sec, tfidf_sec = extract_features(df_secretary['remarks'])
-    models_pres = train_models(tf_pres, tfidf_pres)
-    models_sec = train_models(tf_sec, tfidf_sec)
-    save_models(models_pres[0], models_pres[1], models_pres[2], 'pres')
-    save_models(models_sec[0], models_sec[1], models_sec[2], 'sec')
+    tf, tfidf = extract_features(df['remarks'])
+    models = train_models(tf, tfidf)
+    save_models(models[0], models[1], models[2])
 
 def extract_features(df):   
 
@@ -42,10 +37,10 @@ def train_models(tf, tfidf):
 
     return nmf, lda, lsa
 
-def save_models(nmf, lda, lsa, name):
-    joblib.dump(nmf, '../pres-travel-analysis/models/' + name + '_' + 'nmf.sav')
-    joblib.dump(lda, '../pres-travel-analysis/models/' + name + '_' + 'lda.sav')
-    joblib.dump(lsa, '../pres-travel-analysis/models/' + name + '_' + 'lsa.sav')
+def save_models(nmf, lda, lsa):
+    joblib.dump(nmf, '../pres-travel-analysis/models/' + 'nmf.sav')
+    joblib.dump(lda, '../pres-travel-analysis/models/' + 'lda.sav')
+    joblib.dump(lsa, '../pres-travel-analysis/models/' + 'lsa.sav')
 
 if __name__ == '__main__':
     main()
