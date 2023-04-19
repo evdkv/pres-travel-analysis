@@ -5,7 +5,7 @@ import csv
 TABLE_HEADER = ['event_id', 'visit_type', 'name', 'country', 'locale', 'remarks', 'date_start', 'date_end']
 
 def main():
-    with open('../pres-travel-analysis/data/travel_raw.csv', 'r') as csv_in:
+    with open('data/travel_raw.csv', 'r') as csv_in:
         parsed_csv = csv.reader(csv_in)
         all_rows = []
         event_id = 0
