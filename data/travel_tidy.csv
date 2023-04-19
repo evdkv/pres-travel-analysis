@@ -153,15 +153,17 @@ event_id,visit_type,name,country,locale,remarks,date_start,date_end
 122,president,Dwight D. Eisenhower,"Korea, Republic of",Seoul,Met with Prime Minister Chung and addressed the National Assembly.,1960-06-19,1960-06-20
 123,president,Dwight D. Eisenhower,Mexico,Ciudad Acuna,Informal visit; met with President Lopez Mateos.,1960-10-24,1960-10-24
 124,president,John F. Kennedy,Canada,Ottawa,State visit; addressed joint session of Parliament.,1961-05-16,1961-05-18
-125,president,John F. Kennedy,France,Paris,State visit; addressed North Atlantic Council and met with President De Gaulle.,1961-05-31,1961-06-03
-126,president,John F. Kennedy,Austria,Vienna,Met with President Sehaerf and held talks with Soviet Premier Khrushchev.,1961-06-03,1961-06-04
+125,president,John F. Kennedy,France,Paris,"State visit; addressed North Atlantic Council and met with President De
+            Gaulle.",1961-05-31,1961-06-03
+126,president,John F. Kennedy,Austria,Vienna,Met with President Schaerf and held talks with Soviet Premier Khrushchev.,1961-06-03,1961-06-04
 127,president,John F. Kennedy,United Kingdom,London,Private visit; met with Queen Elizabeth II and Prime Minister Macmillan.,1961-06-04,1961-06-05
 128,president,John F. Kennedy,Venezuela,Caracas,Met with President Betancourt.,1961-12-16,1961-12-17
 129,president,John F. Kennedy,Colombia,Bogota,Met with President Lleras Camargo.,1961-12-17,1961-12-17
 130,president,John F. Kennedy,United Kingdom,Bermuda,Met with Prime Minister Macmillan.,1961-12-21,1961-12-22
 131,president,John F. Kennedy,Mexico,Mexico,State visit; met with President Lopez Mateos.,1962-06-29,1962-07-01
 131,president,John F. Kennedy,Mexico,D.F.,State visit; met with President Lopez Mateos.,1962-06-29,1962-07-01
-132,president,John F. Kennedy,United Kingdom,Nassau (The Bahamas),Conferred with Prime Minister Macmillan; concluded Nassau agreement on nuclear defense systems.,1962-12-18,1962-12-21
+132,president,John F. Kennedy,United Kingdom,Nassau (The Bahamas),"Conferred with Prime Minister Macmillan; concluded Nassau agreement on nuclear
+            defense systems.",1962-12-18,1962-12-21
 133,president,John F. Kennedy,Costa Rica,San Jose,Attended Conference of Presidents of the Central American Republics.,1963-03-18,1963-03-20
 134,president,John F. Kennedy,"Germany, Federal Republic of",Bonn,Met with Chancellor Adenauer and other officials.,1963-06-23,1963-06-25
 134,president,John F. Kennedy,"Germany, Federal Republic of",Cologne,Met with Chancellor Adenauer and other officials.,1963-06-23,1963-06-25
