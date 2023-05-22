@@ -14,10 +14,11 @@ def main():
 
 def extract_features(df):   
 
-    tfidf_vectorizer = TfidfVectorizer(max_df=0.6, min_df=2, stop_words='english')
+    tfidf_vectorizer = TfidfVectorizer(max_df=0.6, min_df=2,stop_words='english')
     tfidf = tfidf_vectorizer.fit_transform(df)
 
     joblib.dump(tfidf, 'models/' + 'tfidf_features.joblib')
+    joblib.dump(tfidf_vectorizer, 'models/' + 'tfidf_vectorizer.joblib')
     # tfidf_feature_names = tfidf_vectorizer.get_feature_names_out()
 
     # tf_vectorizer = CountVectorizer(max_df=0.7, min_df=5, stop_words='english')
