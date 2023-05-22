@@ -6,9 +6,9 @@ from nltk.stem import WordNetLemmatizer
 
 def main():
     df = pd.read_csv('data/travel_tidy.csv')
-    df = df[['event_id', 'visit_type','name', 'remarks']]
+    df = df[['event_id', 'visit_type', 'name', 'country', 'remarks']]
     df = df.drop_duplicates()
-    df = df[['event_id', 'visit_type', 'name', 'remarks']]
+    df = df[['event_id', 'visit_type', 'name', 'country', 'remarks']]
 
     df['remarks'] = df['remarks'].apply(lambda remarks: ' '.join(preprocess(remarks)))
     df.to_csv('data/travel_processed.csv', index=False)
