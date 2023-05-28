@@ -23,32 +23,32 @@ Project Organization
 ├── LICENSE
 ├── README.md
 ├── data
-│   ├── README.md               # Data dictionaries
-│   ├── travel_processed.csv    # A tidy dataset with a processed textual component
-│   ├── travel_raw.csv          # A raw scraped dataset
-│   └── travel_tidy.csv         # A tidy dataset with an unprocessed textual component
+│   ├── README.md                 # Data dictionaries
+│   ├── travel_processed.csv      # A tidy dataset with a processed textual component
+│   ├── travel_raw.csv            # A raw scraped dataset
+│   └── travel_tidy.csv           # A tidy dataset with an unprocessed textual component
 ├── external
-│   ├── LICENSE     # License for ctfidf.py
-│   ├── README.md   # Credit for ctfidf.py
-│   └── ctfidf.py   # A class for calculating class-based TF-IDF
+│   ├── LICENSE                   # License for ctfidf.py
+│   ├── README.md                 # Credit for ctfidf.py
+│   └── ctfidf.py                 # A class for calculating class-based TF-IDF
 ├── models
-│   ├── kmeans.joblib           # K-Means saved model
-│   ├── nmf.joblib              # NMF saved model
-│   ├── pca.joblib              # PCA saved model
-│   ├── tfidf_features.joblib   # TF-IDF matrix
-│   ├── tfidf_vectorizer.joblib # TF-IDF scikit object
-│   └── tsne.joblib             # t-SNE saved model
+│   ├── kmeans.joblib             # K-Means saved model
+│   ├── nmf.joblib                # NMF saved model
+│   ├── pca.joblib                # PCA saved model
+│   ├── tfidf_features.joblib     # TF-IDF matrix
+│   ├── tfidf_vectorizer.joblib   # TF-IDF scikit object
+│   └── tsne.joblib               # t-SNE saved model
 ├── notebooks
 │   ├── visualize_clusters.ipynb  # Visualizing PCA and t-SNE embeddings
 │   ├── visualize_exp.ipynb       # Exploratory analyses and visualizations
 │   └── visualize_tfidf.ipynb     # Visualizing TF-IDF results
 └── src
     ├── data
-    │   ├── preprocess.py   # Script for cleaning the textual portion of the data
-    │   ├── scrape.py       # Script for scraping the raw data
-    │   └── tidy.py         # Script for cleaning up the dates and separating locales
+    │   ├── preprocess.py         # Script for cleaning the textual portion of the data
+    │   ├── scrape.py             # Script for scraping the raw data
+    │   └── tidy.py               # Script for cleaning up the dates and separating locales
     └── models
-        └── fit_models.py   # Script for fitting the models
+        └── fit_models.py         # Script for fitting the models
 ```
 
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
