@@ -2,7 +2,7 @@ Data Dictionaries
 ==============================
 
 The data dictionaries are below. **travel_raw** is the dataset scraped directly from
-the U.S. Historian Website. **travel_tidy** is the dataset with separated locales and clened up dates.
+the U.S. Historian Website. **travel_tidy** is the dataset with separated locales and cleaned up dates.
 **travel_processed** has the textual components cleaned up and ready for analyses.
 
 travel_raw.csv
